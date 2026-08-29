@@ -9,12 +9,6 @@ Schoonover.
 ## Install
 
 ```bash
-omarchy theme install <url-del-repo>
-```
-
-Replace `<url-del-repo>` with the URL of this repository, for example:
-
-```bash
 omarchy theme install https://github.com/carlop/omarchy-solarized-dark-theme.git
 ```
 
