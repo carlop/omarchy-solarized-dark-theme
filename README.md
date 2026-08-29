@@ -4,6 +4,8 @@ A dark theme for [Omarchy](https://omarchy.org/) based on the
 [Solarized](https://ethanschoonover.com/solarized/) color palette by Ethan
 Schoonover.
 
+![Solarized Dark](screenshots/solarized-dark.png)
+
 ## Install
 
 ```bash
@@ -29,6 +31,7 @@ omarchy theme set solarized-dark
 - `icons.theme` — icon theme (Yaru-blue)
 - `backgrounds/` — drop your background images here
 - `preview.png` / `preview-unlock.png` / `unlock.png` — theme preview and lock screen background
+- `screenshots/` — screenshots used in this README
 
 When installed from a repo, Omarchy regenerates the executable configs
 (`hyprland.lua`, terminal configs, Neovim, VS Code, …) from `colors.toml`
