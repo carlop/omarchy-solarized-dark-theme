@@ -7,13 +7,19 @@ Schoonover.
 ## Install
 
 ```bash
-omarchy theme install <url-de-este-repo>
+omarchy theme install <url-del-repo>
+```
+
+Replace `<url-del-repo>` with the URL of this repository, for example:
+
+```bash
+omarchy theme install git@github.com:carlop/omarchy-solarized-dark-theme.git
 ```
 
 Or, to use it without installing from a repo:
 
 ```bash
-cp -r solarized-dark ~/.config/omarchy/themes/
+cp -r omarchy-solarized-dark-theme ~/.config/omarchy/themes/solarized-dark
 omarchy theme set solarized-dark
 ```
 
@@ -22,7 +28,13 @@ omarchy theme set solarized-dark
 - `colors.toml` — all theme colors mapped from the Solarized Dark palette
 - `icons.theme` — icon theme (Yaru-blue)
 - `backgrounds/` — drop your background images here
+- `preview.png` / `preview-unlock.png` / `unlock.png` — theme preview and lock screen background
 
 When installed from a repo, Omarchy regenerates the executable configs
 (`hyprland.lua`, terminal configs, Neovim, VS Code, …) from `colors.toml`
 automatically.
+
+## License
+
+MIT. The Solarized color palette is the work of
+[Ethan Schoonover](https://ethanschoonover.com/solarized/).
