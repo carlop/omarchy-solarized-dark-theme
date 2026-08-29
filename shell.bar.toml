@@ -1,0 +1,3 @@
+# Overrides the [bar] section of the generated shell.toml for this theme.
+# Alpha del fondo de la barra: 0 = invisible, 1 = opaca.
+background-alpha = 1.0
