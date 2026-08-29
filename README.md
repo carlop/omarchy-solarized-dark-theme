@@ -13,7 +13,7 @@ omarchy theme install <url-del-repo>
 Replace `<url-del-repo>` with the URL of this repository, for example:
 
 ```bash
-omarchy theme install git@github.com:carlop/omarchy-solarized-dark-theme.git
+omarchy theme install https://github.com/carlop/omarchy-solarized-dark-theme.git
 ```
 
 Or, to use it without installing from a repo:
